@@ -1,0 +1,37 @@
+/* *{
+    background-color: gold;
+    text-align: center;
+    display: inline-block;
+} */
+
+h1{
+    color: yellowgreen;
+    /* 文字居中 */
+    text-align: center;
+}
+
+#Name{
+    display: block;
+    text-align: center;
+    background-color: aqua;
+}
+.my{
+    display: block;
+    text-align: center;
+}
+span{
+    background-color: pink;
+    display: block;
+    text-align: center;
+}
+div{
+    text-align: center;
+    background-color: brown;
+}
+
+
+#Email, #Phone,.cls{
+    display: block;
+    text-align: center;
+    background-color: aqua;
+}

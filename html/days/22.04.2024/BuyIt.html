@@ -1,0 +1,52 @@
+<html>
+    <head>
+<title>
+    Form Submission
+</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <H1>
+            Step 1: Your details
+        </H1>
+        <form >
+        <label for="Name">Name</label>
+        <div>
+            <span id ="c">
+                <input type="text" id="Name" class="my" placeholder="First and Last Name" > 
+                </span>
+        </div>
+        <br> <br>
+        <label for="Email">Email</label>
+        <input type="email"  id="Email" placeholder="example@domain.com" > <br> <br>
+        <label for="Phone">Phone</label>
+        <input type="text"  id="Phone" placeholder="Eg.+44750000000" required>
+        <H1>
+            Step 2: Delivery Address
+        </H1>
+        <label for="Address">Address</label>
+        <textarea name="" id="Address" cols="30" rows="10"></textarea> <br> <br>
+       <div>
+        <label for="Post code">Post code</label>
+        <input type="number" id="Post code"> <br> <br>
+       </div>
+        <label for="Country">Country</label>
+        <input type="text" class="cls" id="Country"> 
+        <H1>
+            Step 3: Card Details
+        </H1>
+        <label for="Card type">Card type</label>  <br>
+        <input type="radio" id="Card type" name="Visa" > <Span> <button> <img src="https://logowik.com/content/uploads/images/219_visa.jpg" height="10" alt="Visa"></button> Visa </Span>
+        <input type="radio" id="Card type" name="AmEx" > <Span> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3RMQ2xHR1Uj42-iwoYcgdafXGLDtkaC5bIHHwH8jPIg&s" height="10" alt="Emex"> Emex </Span>
+        <input type="radio" id="Card type" name="MasterCard" > <Span> <img src="https://cdn.vox-cdn.com/thumbor/FtAV-Waa1rTPheAkxv3o4i0MVf0=/0x0:1000x1000/1200x800/filters:focal(421x430:581x590)/cdn.vox-cdn.com/uploads/chorus_image/image/62800797/Mastercard_logo.0.jpg"  height="15" alt="MasterCard"> fi MasterCard </Span> <br> <br>
+        <label for="Card number">Card number</label> 
+        <input type="number"  id="Card number"> <br> <br>
+        <label for="Security code">Security code</label> 
+        <input type="number"  id="Security code"> <br> <br>
+        <label for="Name on the Card">Name on the Card</label>
+        <input type="text" id="Name on the Card" placeholder="Exact Name o the Card" > <br><br>
+        <input type="submit" value="Buy It">
+    </form>
+    </body>
+</html>

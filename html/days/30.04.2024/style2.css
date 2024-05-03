@@ -1,0 +1,31 @@
+.det1{
+    position: relative;+
+    /* z-index: 1px; */
+
+    margin-top: 200px;
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    overflow: scroll;
+    margin-left: 400px;
+    color: darkred;
+    /* background-color: red; */
+    /* background-color: red; */
+}
+.det2{
+    color: blue    ;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+   z-index: -1;
+    /* margin-top: 200px; */
+    /* vertical-align: top; */
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    /* overflow: scroll; */
+    margin-left: 400px;
+    /* background-color: blue; */
+    /* background-color: red; */    
+}

@@ -1,0 +1,21 @@
+#fd{
+    color: pink;
+    background-color: black;
+}
+.myClass{
+    color: pink;
+    background-color: black;
+}
+
+
+th{
+    text-align: end;
+    color: pink;
+    background-color: black;
+}
+#fix{
+    display: block;
+    color:yellow;
+    background-color: aqua;
+    text-align: end;
+}

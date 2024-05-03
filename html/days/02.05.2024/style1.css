@@ -1,0 +1,171 @@
+.img1{
+    width: 100%;
+}
+.img2{
+    width: 90px;
+    height: 70px;
+    position: absolute;
+    left: 45%;
+    top: 55%;
+}
+.firstdiv{
+    position:relative;
+    margin-bottom: 70px;
+}
+.firstp{
+    display: inline-block;
+    color: white;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 60px;
+}
+.firsth1{
+    margin-left: 45px;
+}
+.firsthr{
+    width: 95%;
+    margin-bottom: 50px;
+}
+.div1{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.div12{
+    margin-left: 60px;
+}
+.images{
+    width: 450px;
+    height: 300px;
+}
+
+.firstspan{
+    color: white;
+    background-color: black;
+    position: absolute;
+    font-size: x-large ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0%;
+}
+
+.secondh1{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.secondp{
+    margin-left: 45px;
+    font-size: larger;
+    font-display: inherit;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.div2img{
+    width: 450px;
+    height: 300px;
+}
+
+.div2{
+    display: inline-block;
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+.div2p{
+    font-size: x-large;
+}
+.div2h3{
+    color: grey;
+}
+
+.div22{
+    margin-left: 60px;
+}
+.div2btn{
+    font-size: x-large;
+    width: 100%;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.seph1{
+    margin: 50px;
+}
+.seph3{
+    margin: 50px;
+    font-size: x-large;
+}
+.inp{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: grey;
+    margin-bottom: 20px;
+}
+.inp::placeholder {
+    /* Adjust the text-indent to move the placeholder text */
+    text-indent: 40px; /* Adjust this value as needed */
+    font-size: large;
+}
+.msg{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    
+}
+
+.lastimg{
+    width: 95%;
+    padding-left: 45px;
+}
+.diiiiv{
+    position: absolute;
+    width: 99%;
+    /* height: 100%; */
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hook1{
+   color: white;
+   font-size: x-large;
+}
+.spanlast{
+    margin-left: 48%;
+    color: white;
+    font-size: x-large;
+}
+.toph1{
+    display: inline-block;
+}
+.menu{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.tophook{
+    color: black;
+}
+.tophook1{
+    margin-left: 50px;
+}
+.tophook2{
+    margin-left: 1000px;
+}
+.tophook3{
+    padding-left: 80px;
+}
